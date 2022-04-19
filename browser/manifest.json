@@ -5,7 +5,7 @@
     "description": "Sends HTTP request on specific result on monkeytype",
     "browser_specific_settings": {
         "gecko": {
-          "id": "addon@shocktype.com"
+          "id": "addon@shocktype.io"
         }
       },
     "icons": {
@@ -17,7 +17,7 @@
                 "*://*.monkeytype.com/*"
             ],
             "js": [
-                "shocktype.js"
+                "content_scripts/shocktype.js"
             ]
         }
     ],
@@ -30,6 +30,7 @@
     
     "permissions": [
         "*://*/*",
-        "storage"
+        "storage",
+        "activeTab"
     ]
 }
