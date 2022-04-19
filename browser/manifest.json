@@ -9,7 +9,7 @@
         }
       },
     "icons": {
-        "48": "icons/shocktype-48.png"
+        "192": "icons/shocktype-192x192.png"
     },
     "content_scripts": [
         {
@@ -23,7 +23,7 @@
     ],
     
     "browser_action": {
-        "default_icon": "icons/shocktype-32.png",
+        "default_icon": "icons/shocktype-32x32.png",
         "default_title": "Shocktype",
         "default_popup": "popup/index.html"
     },

@@ -1,11 +1,15 @@
 const arm = async () => {
     console.log('armed')
+    fetch('http://192.168.1.131/arm', {
+        method: 'POST'
+    })
 }
 
 const shock = async () => {
     //let host = await browser.storage.sync.get('host')
-    //fetch(host.host)
-    console.log('shock')
+    fetch('http://192.168.1.131/shock', {
+        method: 'POST'
+    })
 }
 
 window.addEventListener('load', () => {
